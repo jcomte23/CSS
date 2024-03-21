@@ -92,3 +92,28 @@ p.tres {
     border-width: 25px 10px 4px 35px;
     /* 25px top, 10px right, 4px bottom and 35px left */
 }
+
+
+/* La propiedad border-width con radius*/
+p.normal {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+}
